@@ -1,59 +1,42 @@
-# ListaTareasAngular
+# Lista de tareas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.7.
+Aplicación para gestionar tareas pendientes y completadas, desarrollada con Angular.
 
-## Development server
+🔗 **Demo:** https://angela-aponte.github.io/lista-tareas-angular/
 
-To start a local development server, run:
+## Funcionalidades
+
+- Agregar tareas (con el botón o con Enter)
+- Marcar tareas como hechas
+- Eliminar tareas
+- Filtrar por todas, pendientes o hechas
+- Contador de tareas pendientes
+
+## Tecnologías
+
+- Angular (componentes standalone, Signals, `computed` y control de flujo `@for` / `@empty`)
+- TypeScript, HTML y CSS
+- GitHub Actions y GitHub Pages
+
+## Ejecución local
 
 ```bash
+git clone https://github.com/angela-aponte/lista-tareas-angular.git
+cd lista-tareas-angular
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## Pruebas
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Despliegue
 
-For end-to-end (e2e) testing, run:
+Cada `push` a `main` ejecuta el pipeline de GitHub Actions: compila la aplicación, la publica en GitHub Pages y verifica que el sitio responda correctamente.
 
-```bash
-ng e2e
-```
+## Autora
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Angela Aponte · Ingeniería de Sistemas, UCEVA · Arquitectura de Software
